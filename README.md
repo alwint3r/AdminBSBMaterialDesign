@@ -7,9 +7,16 @@ AdminBSB - Material Design
 
 It's really easy to customize and usage. You can use for from 320px to large resolution pixels of new generation screens and mobile devices. (**Fully Responsive Material Design**)
 
+IMPORTANT NOTE
+---------------
+
+This is not the original version of this template, thus not available in npm or bower registry. If you want to install this template using npm or bower anyway, just use the github repository url of this template instead of the package name.
+
+If you want to use the original template, you may want to check [this](https://github.com/gurayyarar/AdminBSBMaterialDesign.git).
+
 Demo
 ----------------
-You can check the website preview with **[this link](https://gurayyarar.github.io/AdminBSBMaterialDesign/)**  
+You can check the website preview with **[this link](https://gurayyarar.github.io/AdminBSBMaterialDesign/)**
 
 ![AdminBSB - Free Admin Template With Material Design](https://raw.githubusercontent.com/gurayyarar/AdminBSBMaterialDesign/master/images/screenshot.png)
 
@@ -21,7 +28,7 @@ You can choose one from multiple ways for installation.
 - Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
 - Clone to your machine
 ```
-git clone https://github.com/gurayyarar/AdminBSBMaterialDesign.git
+git clone https://github.com/alwint3r/AdminBSBMaterialDesign.git
 ```
 
 **npm**
@@ -36,7 +43,7 @@ bower install adminbsb-materialdesign
 
 Documentation
 ----------
-Visit the **[documentation](https://gurayyarar.github.io/AdminBSBMaterialDesign/documentation/)**
+Visit the **[documentation](https://alwint3r.github.io/AdminBSBMaterialDesign/documentation/)**
 
 Browser Support
 ----------
@@ -54,10 +61,10 @@ You can display all release notes with **[this link](https://gurayyarar.github.i
 
 FAQ
 ===
-**Can i use this template for personal or commercial websites/web projects?**  
+**Can i use this template for personal or commercial websites/web projects?**
 Sure, you can use both of personal and commercial websites/web projects.
 
-**Is the attribution link required?**  
+**Is the attribution link required?**
 No, not required. (Though very much appreciated)
 
 License

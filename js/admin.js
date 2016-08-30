@@ -42,7 +42,7 @@ $.AdminBSB.options = {
 
 /* Left Sidebar - Function =================================================================================================
 *  You can manage the left sidebar menu options
-*  
+*
 */
 $.AdminBSB.leftSideBar = {
     activate: function () {
@@ -152,7 +152,7 @@ $.AdminBSB.leftSideBar = {
 
 /* Right Sidebar - Function ================================================================================================
 *  You can manage the right sidebar menu options
-*  
+*
 */
 $.AdminBSB.rightSideBar = {
     activate: function () {
@@ -184,7 +184,7 @@ $.AdminBSB.rightSideBar = {
 
 /* Searchbar - Function ================================================================================================
 *  You can manage the search bar
-*  
+*
 */
 var $searchBar = $('.search-bar');
 $.AdminBSB.search = {
@@ -221,7 +221,7 @@ $.AdminBSB.search = {
 
 /* Navbar - Function =======================================================================================================
 *  You can manage the navbar
-*  
+*
 */
 $.AdminBSB.navbar = {
     activate: function () {
@@ -251,7 +251,7 @@ $.AdminBSB.navbar = {
 
 /* Input - Function ========================================================================================================
 *  You can manage the inputs(also textareas) with name of class 'form-control'
-*  
+*
 */
 $.AdminBSB.input = {
     activate: function () {
@@ -281,7 +281,7 @@ $.AdminBSB.input = {
 
 /* Form - Select - Function ================================================================================================
 *  You can manage the 'select' of form elements
-*  
+*
 */
 $.AdminBSB.select = {
     activate: function () {
@@ -292,7 +292,7 @@ $.AdminBSB.select = {
 
 /* DropdownMenu - Function =================================================================================================
 *  You can manage the dropdown menu
-*  
+*
 */
 
 $.AdminBSB.dropdownMenu = {
@@ -330,7 +330,7 @@ $.AdminBSB.dropdownMenu = {
         var effectIn = $.AdminBSB.options.dropdownMenu.effectIn, effectOut = $.AdminBSB.options.dropdownMenu.effectOut;
         var dropdown = $(target), dropdownMenu = $('.dropdown-menu', target);
 
-        if (dropdown.size() > 0) {
+        if (dropdown.length > 0) {
             var udEffectIn = dropdown.data('effect-in');
             var udEffectOut = dropdown.data('effect-out');
             if (udEffectIn !== undefined) { effectIn = udEffectIn; }
@@ -370,7 +370,7 @@ $.AdminBSB.dropdownMenu = {
 
 /* Browser - Function ======================================================================================================
 *  You can manage browser
-*  
+*
 */
 var edge = 'Microsoft Edge';
 var ie10 = 'Internet Explorer 10';
